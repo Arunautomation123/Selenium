@@ -1,2 +1,2 @@
 # Selenium
-Selenium automation framework
+Selenium Python automation hybrid framework for nopcommerce demo web application testing
