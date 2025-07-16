@@ -1,0 +1,122 @@
+07132025 12:47:54 PM: INFO: *******Test_002_DDT_Login********
+07132025 12:47:54 PM: INFO: *******test_login_ddt********
+07132025 12:48:03 PM: INFO: *******Passed******
+07132025 12:48:19 PM: INFO: *******Login test passed********
+07132025 12:48:19 PM: WARNING: *******End of test_login_ddt ********
+07132025 12:50:32 PM: INFO: *******Test_002_DDT_Login********
+07132025 12:50:32 PM: INFO: *******test_login_ddt********
+07132025 12:50:39 PM: INFO: *******Passed******
+07132025 12:50:44 PM: INFO: *******Failed******
+07132025 12:51:23 PM: INFO: *******Test_002_DDT_Login********
+07132025 12:51:23 PM: INFO: *******test_login_ddt********
+07132025 12:51:30 PM: INFO: *******Passed******
+07132025 12:51:35 PM: INFO: *******Failed******
+07132025 12:51:41 PM: INFO: *******Failed******
+07132025 12:51:47 PM: INFO: *******Failed******
+07132025 12:51:47 PM: INFO: *******Login test passed********
+07132025 12:51:47 PM: WARNING: *******End of test_login_ddt ********
+07132025 11:10:40 PM: INFO: ***test_add_customer***
+07132025 11:10:42 PM: INFO: ***Login succesful***
+07132025 11:10:42 PM: INFO: *******Starting add customer test*******
+07132025 11:10:44 PM: INFO: *******Providing customer info*****
+07132025 11:12:14 PM: INFO: ***test_add_customer***
+07132025 11:12:16 PM: INFO: ***Login succesful***
+07132025 11:12:16 PM: INFO: *******Starting add customer test*******
+07132025 11:12:18 PM: INFO: *******Providing customer info*****
+07132025 11:13:04 PM: INFO: ***test_add_customer***
+07132025 11:13:06 PM: INFO: ***Login succesful***
+07132025 11:13:06 PM: INFO: *******Starting add customer test*******
+07132025 11:13:08 PM: INFO: *******Providing customer info*****
+07132025 11:16:31 PM: INFO: ***test_add_customer***
+07132025 11:16:34 PM: INFO: ***Login succesful***
+07132025 11:16:34 PM: INFO: *******Starting add customer test*******
+07132025 11:16:36 PM: INFO: *******Providing customer info*****
+07132025 11:17:54 PM: INFO: ***test_add_customer***
+07132025 11:17:56 PM: INFO: ***Login succesful***
+07132025 11:17:56 PM: INFO: *******Starting add customer test*******
+07132025 11:17:58 PM: INFO: *******Providing customer info*****
+07132025 11:18:53 PM: INFO: ***test_add_customer***
+07132025 11:18:53 PM: INFO: ***Login succesful***
+07132025 11:18:53 PM: INFO: *******Starting add customer test*******
+07132025 11:18:57 PM: INFO: *******Providing customer info*****
+07132025 11:18:58 PM: INFO: ******Saving customer info*******
+07132025 11:18:58 PM: INFO: ********Strat add customer validation****
+07132025 11:18:59 PM: INFO: *****Add customer test passed*****
+07132025 11:18:59 PM: INFO: ******test case ended*****
+07142025 02:43:59 PM: INFO: ***test_add_customer***
+07142025 02:44:03 PM: INFO: ***Login succesful***
+07142025 02:44:03 PM: INFO: *******Starting add customer test*******
+07142025 02:44:07 PM: INFO: *******Providing customer info*****
+07142025 02:44:07 PM: INFO: ******Saving customer info*******
+07142025 02:44:07 PM: INFO: ********Strat add customer validation****
+07142025 02:44:09 PM: INFO: *****Add customer test passed*****
+07142025 02:44:19 PM: INFO: ******test case ended*****
+07142025 11:05:49 PM: INFO: ***test_add_customer***
+07142025 11:05:52 PM: INFO: ***Login successful***
+07142025 11:05:52 PM: INFO: *******Starting search customer test*******
+07142025 11:05:55 PM: INFO: *******Click search button*******
+07142025 11:05:59 PM: INFO: *******Customer found from email search*******
+07142025 11:08:08 PM: INFO: ***test_add_customer***
+07142025 11:08:11 PM: INFO: ***Login successful***
+07142025 11:08:11 PM: INFO: *******Starting search customer test*******
+07142025 11:08:14 PM: INFO: *******Click search button*******
+07142025 11:08:27 PM: INFO: *******Customer found from email search*******
+07142025 11:08:45 PM: INFO: ***test_add_customer***
+07142025 11:08:48 PM: INFO: ***Login successful***
+07142025 11:08:48 PM: INFO: *******Starting search customer test*******
+07142025 11:08:50 PM: INFO: *******Click search button*******
+07142025 11:09:04 PM: INFO: *******Customer found from email search*******
+07142025 11:15:34 PM: INFO: ***test_add_customer***
+07142025 11:15:37 PM: INFO: ***Login successful***
+07142025 11:15:37 PM: INFO: *******Starting search customer test*******
+07142025 11:15:40 PM: INFO: *******Click search button*******
+07142025 11:15:53 PM: INFO: *******Customer found from email search*******
+07142025 11:15:58 PM: INFO: ***test_add_customer***
+07142025 11:16:01 PM: INFO: ***Login successful***
+07142025 11:16:01 PM: INFO: *******Starting search customer test*******
+07142025 11:16:03 PM: INFO: *******Click search button*******
+07142025 11:16:17 PM: ERROR: *******Customer not found from company search*******
+07142025 11:18:25 PM: INFO: ***test_add_customer***
+07142025 11:18:29 PM: INFO: ***Login successful***
+07142025 11:18:29 PM: INFO: *******Starting search customer test*******
+07142025 11:18:32 PM: INFO: *******Click search button*******
+07142025 11:18:45 PM: INFO: *******Customer found from email search*******
+07142025 11:18:50 PM: INFO: ***test_add_customer***
+07142025 11:18:52 PM: INFO: ***Login successful***
+07142025 11:18:52 PM: INFO: *******Starting search customer test*******
+07142025 11:18:55 PM: INFO: *******Click search button*******
+07142025 11:19:02 PM: INFO: *******Customer found from company search*******
+07152025 10:26:09 PM: INFO: *******Test_002_DDT_Login********
+07152025 10:26:09 PM: INFO: *******test_login_ddt********
+07152025 10:26:22 PM: INFO: *******Passed******
+07152025 10:26:28 PM: INFO: *******Failed******
+07152025 10:26:35 PM: INFO: *******Failed******
+07152025 10:26:41 PM: INFO: *******Failed******
+07152025 10:26:41 PM: INFO: *******Login test passed********
+07152025 10:26:41 PM: WARNING: *******End of test_login_ddt ********
+07152025 10:27:17 PM: INFO: ***test_add_customer***
+07152025 10:27:17 PM: INFO: *******test_login********
+07152025 10:27:18 PM: INFO: *******Test_001_Login********
+07152025 10:27:18 PM: INFO: *******test_homepage********
+07152025 10:27:18 PM: INFO: *******Homepage title passed********
+07152025 10:27:22 PM: INFO: *******Login test passed********
+07152025 10:27:22 PM: INFO: ***Login successful***
+07152025 10:27:22 PM: INFO: *******Starting add customer test*******
+07152025 10:27:27 PM: INFO: *******Providing customer info*****
+07152025 10:27:31 PM: INFO: ******Saving customer info*******
+07152025 10:27:31 PM: INFO: ********Strat add customer validation****
+07152025 10:27:32 PM: INFO: *****Add customer test passed*****
+07152025 10:27:42 PM: INFO: ******test case ended*****
+07152025 10:28:09 PM: INFO: ***test_add_customer***
+07152025 10:28:14 PM: INFO: ***Login successful***
+07152025 10:28:14 PM: INFO: *******Starting add customer test*******
+07152025 10:28:19 PM: INFO: *******Providing customer info*****
+07152025 10:28:22 PM: INFO: ******Saving customer info*******
+07152025 10:28:22 PM: INFO: ********Strat add customer validation****
+07152025 10:28:23 PM: INFO: *****Add customer test passed*****
+07152025 10:28:33 PM: INFO: ******test case ended*****
+07152025 10:28:38 PM: INFO: *******Test_001_Login********
+07152025 10:28:38 PM: INFO: *******test_homepage********
+07152025 10:28:38 PM: INFO: *******Homepage title passed********
+07152025 10:28:43 PM: INFO: *******test_login********
+07152025 10:28:46 PM: INFO: *******Login test passed********

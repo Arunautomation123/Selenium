@@ -1,0 +1,8 @@
+locators and test scripts are stored separately in different classes
+
+POM is design principle
+Webelement method and test scripts are stored in same class in Non POM model
+
+Webelement method(Object) and test scripts are stored in different class in POM model
+
+use config.ini file to store common values and create utility file to access the params to test cases
