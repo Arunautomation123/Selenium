@@ -1,0 +1,29 @@
+BDD is agile software development technique encourages collaboration b/w developers,
+QA and non technical or business participants in project
+
+behave is behavior driven development, python style
+
+behave operates on directories containing - business analyst
+
+step - create steps in python
+
+Components  - feature, scenario, steps
+
+Each feature file contains multiple scenarios and multiple steps
+Feature file - .feature
+
+
+Gherkin keywords - Given, When, Then
+
+Scenario: Title/short description
+  Given [A Precondition]
+  When [Some event]
+  Then [Some Outcome]
+
+
+ Feature: OrangeHRM LOgin
+
+ Scenario: Logo presence on OrangeHRM home page
+           Given I launch the browser
+           When I open orange hrm homepage
+           Then I verify that the logo present on page
