@@ -1,0 +1,23 @@
+1. Install all the required plugins
+   Pytest, pytest-xdist, pytest-html, openpyxl
+
+2. Create folder structure
+   Logs
+   Screenshots
+   Reports
+   PageObjects - python package
+   TestCases - python package
+   Utilities - python package
+   TestData
+   Configuration
+
+3. Create Login test case and check title of the page with new page object class in PageObjects.py
+4. Save the screenshot if the test is failing
+5. Create custom logger to capture the test logs in Utilities.py
+6. Run tests on multiple browser using --browser in command line
+7. Run tests parallely with -n 2 command line
+8. Store the test report using --html=Report\report.html
+9. Get the test data from the excel by creating new class in XLutils.py
+
+   
+   

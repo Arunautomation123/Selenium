@@ -1,0 +1,23 @@
+1. Create local git repository in local
+  - go to location - D:\Users\M12378A\PycharmProjects\Selenium
+
+2) git init - will create empty local repository
+
+3) Connect local repository to remote repo (GitHub)
+
+4) Go to GitHub - create new repository - after creation https://github.com/Arunautomation123/Selenium.git link will be created
+
+5) git remote add origin https://github.com/Arunautomation123/Selenium.git - connects local repo to remote repo
+
+6) before first commit we need set name and email
+git config --global user.name "Arun"
+git config --global user.email "arunkumarece024gmail.com"
+
+7) firstly code needs to be staged(buffer) - git add all the files
+
+8) commit code to local repository - git commit -m"Commit message"
+
+9) Push code to remote repo - git push -u origin master
+
+
+  
