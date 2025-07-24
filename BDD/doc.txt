@@ -27,3 +27,14 @@ Scenario: Title/short description
            Given I launch the browser
            When I open orange hrm homepage
            Then I verify that the logo present on page
+
+
+Scenario outline is used when fearyure needs to be validated againts diferent arguments
+
+Background is used when muktiple scenarioes share common steps
+
+
+to generate allure report - behave -f allure_behave.formatter:AllureFormatter -o reports/ (name of the feature file)
+generated reports in JSON file
+
+to convert json file to html - allure serve reports/
