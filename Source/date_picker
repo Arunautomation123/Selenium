@@ -1,0 +1,62 @@
+from selenium import webdriver
+# from selenium.webdriver.edge.service import Service
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.by import By
+import time
+from selenium.webdriver.support.select import Select
+
+
+# standard and non standard elements - date picker will not be same everytime
+
+driver = webdriver.Edge()
+driver.get('https://jqueryui.com/datepicker/')
+driver.maximize_window()
+
+
+ele = driver.find_element(By.XPATH, "//*[@id='content']/iframe")
+# have only one frame
+driver.switch_to.frame(ele)
+
+##mm//dd/yyyy
+
+# driver.find_element(By.XPATH, "//*[@id='datepicker']").send_keys('05/22/2022')
+
+# open the date picker
+driver.find_element(By.XPATH, "//*[@id='datepicker']").click()
+time.sleep(2)
+month = 'May'
+day = '30'
+year = '2026'
+
+while True:
+    mon = driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/div/div/span[1]').text
+
+    ye = driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/div/div/span[2]').text
+
+    if month == mon and ye == year:
+        print("Year and month matched", month, year)
+        break
+    else:
+        next_yr = driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/div/a[2]/span')
+        next_yr.click()
+        # prev_yr = driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/div/a[1]/span')
+        # if int(year) > int(ye):
+        #     next_yr.click()
+        # elif int(year) < int(ye):
+        #     prev_yr.click()
+        # else:
+        #     continue
+
+# select date
+# driver.find_element(By.XPATH, f"//a[@text={day}]").click()
+
+eles = driver.find_elements(By.XPATH, "//table[@class='ui-datepicker-calendar']/tbody/tr/td/a")
+
+for el in eles:
+    if el.text == day:
+        print("Day found")
+        el.click()
+        break
+
+
+# year can be previous or future cannot be both

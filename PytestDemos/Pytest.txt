@@ -1,0 +1,38 @@
+Pytest is framework  -
+Open source framework
+couple of class
+
+Parellel mode
+Suite of test(Set of tests)
+predefined - Precondition -  Post condition
+skip tests
+Conditional test execution
+Report generation
+Auto discovery of test modules and functions
+
+file name should have test_ : test_1, 1_test, test_*.py, *_test.py
+Pytest will run all the files from current directory
+
+to run tests use pytest or py.test in command line
+to display all tests use pytest -rA, default fE
+
+Flags
+to generate xml report - pytest -rA junitxml="Report1.xml"
+to generate normal html report - pytest -rA --html=Report.html
+pytest test_file_name.py --options
+pytest test_file.py -rA -k (matched_substring) -v(verbose gives more info)
+pytest -h (for help)
+pytest -r(P for passed, f for failed, E for error)
+
+
+markers
+giving additional info about the test
+
+
+pytest test_markers.py -m smoke
+pytest test_markers.py -m regression
+pytest test_markers.py -m smoke or/and regression
+
+
+fixtures
+arrange, test, assert, cleanup

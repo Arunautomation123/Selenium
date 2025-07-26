@@ -1,0 +1,27 @@
+Resouces
+ represent an API /collection which can be accessed from the server.
+
+www.google.com/maps
+
+base url - Address where API is hosted on server
+
+
+Path paremeters - are variable parts of url path, they are used to point ti specific resource within collection - subresource
+
+amazon.com/orders/112
+
+query params - sort/filter the resources - ?
+amzon.com/orders?sort_by=2/20/2020
+
+
+end point - base_url/resource(Query/path) Parameters
+
+
+Headers/cookies - represent meta data associated with API request and response
+
+
+{
+  "location": {
+    "lat": -38.383494,
+    "lng": 33.427362
+  },

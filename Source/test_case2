@@ -1,0 +1,29 @@
+from selenium import webdriver
+# from selenium.webdriver.edge.service import Service
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.by import By
+import time
+
+driver = webdriver.Chrome()
+driver.get('https://admin-demo.nopcommerce.com/')
+# used to maximize the browser window
+driver.maximize_window()
+act = driver.title
+
+exp = 'nopCommerce demo store. Login'
+
+ele = driver.find_element(By.ID, 'Email')
+print(ele.text) # text: capture inner text of the element - mostly links
+print(ele.get_attribute('value')) # get the value of any attribute of the element
+driver.find_element(By.ID, 'Email').send_keys('admin@yourstore.com')
+driver.find_element(By.ID, 'Password').clear()
+driver.find_element(By.ID, 'Password').send_keys('admin')
+driver.find_element(By.CLASS_NAME, "login-button").click()
+
+
+time.sleep(15)
+if act == exp:
+    print("Titles match")
+else:
+    print("Dont match")
+

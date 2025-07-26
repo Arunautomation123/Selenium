@@ -1,0 +1,38 @@
+Webdriver is component in selenium
+Webdriver is module 
+
+E2E testing - GUI testing - API testing - Database testing
+
+selenium - GUI testing
+
+webdriver is an API, using webdriver automation code will communicate with Browser
+
+
+selenium client library - json(http) - browser drivers -W3C -  browsers  -selenuim(3.x)
+
+
+selenium client library - json(W3C) - browser drivers -W3C -  browsers  -selenuim(4.x)
+
+
+Locators - to identify element in the webpage - any locator can be used
+loactors are address that identify web element
+
+by default - ID, name, class name, tagname, link text
+
+customized locators - CSS selector, Xpath - not available in html page
+
+<input(element) name(attribute)='username'(value)>
+
+
+//*[@id="navbarSupportedContent"]/div[2]/ul/li[2]/a/button
+
+
+<a ref="link>click on link</a>
+linktest - use data of element to identify elements
+partial link test - partial name can be given
+
+
+class name and tagname - find to more than one element, class names can be same for multiple elements
+
+
+CSS selector - use combination to find elemet(Tag and ID, tag and Name, Tag and attribute, class)

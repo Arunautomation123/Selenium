@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="7" time="0.267" timestamp="2025-05-24T12:27:15.588368+05:30" hostname="DESKTOP-FMJI0G1"><testcase classname="test_first" name="test_1" time="0.002" /><testcase classname="test_first" name="test_2" time="0.002"><failure message="AssertionError: You are not correct&#10;assert 'Sanju' in 'Arun is worst'">def test_2():
+        x = 'Sanju'
+        y = 'Arun is worst'
+&gt;       assert x in y, "You are not correct"
+E       AssertionError: You are not correct
+E       assert 'Sanju' in 'Arun is worst'
+
+test_first.py:11: AssertionError</failure></testcase><testcase classname="test_four" name="test_response" time="0.003" /><testcase classname="test_four" name="test_reponse_400" time="0.002" /><testcase classname="test_second" name="test_login" time="0.002" /><testcase classname="test_second" name="test_checkout" time="0.002" /><testcase classname="test_three.MyTestCase" name="test_something" time="0.002"><failure message="AssertionError: True != False">self = &lt;PytestDemos.test_three.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)  # add assertion here
+E       AssertionError: True != False
+
+test_three.py:6: AssertionError</failure></testcase></testsuite></testsuites>

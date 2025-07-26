@@ -1,0 +1,4 @@
+client - server 
+Api takes the request and send its to server
+API will be devloped by backend
+E2E testing - how frontend and backend are communicating
